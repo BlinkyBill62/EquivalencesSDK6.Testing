@@ -1,0 +1,30 @@
+﻿@model ColecticaSdkMvc.Models.SerializeModel
+{
+    ViewBag.Title = "Deserialize";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+<link href="@Url.Content("~/Content/Responsive-Card-Table.css")" rel="stylesheet" type="text/css" />
+}
+<div style="margin-bottom:20px">
+    <h3>Deserialize</h3>
+</div>
+
+@using (Html.BeginForm("Deserialize", "Serialize", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    <div style="width:100%">
+        <label style="margin-right:5px; float:left"><strong>Select Xml</strong></label>
+        <input type="file" value="Select Equivalences" id="postedFile" name="postedFile" accept=".xml" style="float:left" />
+        <input name="command" type="submit" value="Upload Xml" id="upload" , style="width:150px; float:left; font-size:small; margin-left:5px" />
+    </div>
+
+    <div style="margin-top:10px; margin-bottom:10px; padding-bottom:40px; width:50%">
+        <div style="width:100%; overflow-x:hidden; overflow-y:auto; height:60vh">
+            @Model.Xml
+        </div>
+        <input name="command" type="submit" value="Process" id="process" , style="float:right; font-size:small; margin:10px" />
+    </div>
+    <div style="margin-top:10px; margin-bottom:10px; padding-bottom:40px; width:50%">
+        @*@Model.XmlValues.AgencyId*@
+    </div>
+
+}
