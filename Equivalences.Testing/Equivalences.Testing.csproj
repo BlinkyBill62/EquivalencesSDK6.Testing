@@ -161,13 +161,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ItemController.cs" />
-    <Compile Include="Controllers\List.cs" />
-    <Compile Include="Controllers\QuestionController.cs" />
-    <Compile Include="Controllers\EquivalenceController.cs" />
-    <Compile Include="Controllers\QuestionItemController.cs" />
-    <Compile Include="Controllers\SerializeController.cs" />
-    <Compile Include="Controllers\VariableController.cs" />
+    <Compile Include="Controllers\ItemController.cs" />    
+    <Compile Include="Controllers\EquivalenceController.cs" />    
+    <Compile Include="Controllers\SerializeController.cs" />   
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

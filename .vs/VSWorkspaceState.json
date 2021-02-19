@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\EquivalencesSDK6"
+    "\\Equivalences.Testing",
+    "\\Equivalences.Testing\\App_Start",
+    "\\Equivalences.Testing\\Controllers",
+    "\\Equivalences.Testing\\Views"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\Equivalences.Testing\\App_Start\\RouteConfig.cs",
   "PreviewInSolutionExplorer": false
 }

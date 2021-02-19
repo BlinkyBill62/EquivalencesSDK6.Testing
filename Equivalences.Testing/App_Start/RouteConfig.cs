@@ -13,16 +13,10 @@ namespace EquivalencesSDK6
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            //routes.MapRoute(
-            //    name: "Default",
-            //    url: "{controller}/{action}/{id}",
-            //    defaults: new { controller = "Question", action = "Equivalences", id = UrlParameter.Optional }
-            //);
-
             routes.MapRoute(
               name: "Default",
               url: "{controller}/{action}/{id}",
-              defaults: new { controller = "Question", action = "Equivalences", id = UrlParameter.Optional }
+              defaults: new { controller = "Equivalence", action = "Index", id = UrlParameter.Optional }
           );
         }
     }
