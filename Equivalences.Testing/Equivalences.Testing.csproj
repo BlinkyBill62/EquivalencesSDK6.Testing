@@ -263,6 +263,8 @@
     <Content Include="WebDist.Debug.config" />
     <Content Include="WebDist.Release.config" />
     <Content Include="Web.config" />
+    <Content Include="Views\Variables.cshtml" />
+    <Content Include="Views\Waves.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
