@@ -7,3 +7,4 @@ Web.Release.config
 /.vs/EquivalencesSDK6/v15/Server/sqlite3
 /EquivalencesSDK6/bin
 /EquivalencesSDK6/obj/Debug
+*.csv
