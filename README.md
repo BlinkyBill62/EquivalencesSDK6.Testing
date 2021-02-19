@@ -1,0 +1,1 @@
+# EquivalencesSDK6.Testing
