@@ -193,7 +193,7 @@ namespace ColecticaSdkMvc.Utility
         // to use set the itemType to "All" in Equivalences
         public static List<SearchResult> GetRepository(string itemType, string searchTerm, List<Word> equivalences)
         {
-            DateTime start, finish;
+            DateTime start;
             MultilingualString.CurrentCulture = "en-GB";
 
             // Create a new SearchFacet that will find all
